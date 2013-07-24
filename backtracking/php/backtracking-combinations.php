@@ -17,7 +17,7 @@ function print_solution( &$x, &$st){
  */
 function cond( &$x, &$st ){
 
-    # Check all previous values are diff from curent
+    # Check all previous values are diff and less then curent
     for( $i=0; $i < $st ; $i++ ){
         if ($x[$i] >= $x[$st]){
             return false;
