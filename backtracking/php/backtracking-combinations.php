@@ -19,7 +19,7 @@ function cond( &$x, &$st ){
 
     # Check all previous values are diff from curent
     for( $i=0; $i < $st ; $i++ ){
-        if ($x[$i] == $x[$st]){
+        if ($x[$i] >= $x[$st]){
             return false;
         }
     }
