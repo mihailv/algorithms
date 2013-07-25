@@ -36,7 +36,7 @@ function backtrack( &$n, &$k, &$x){
     # Search for values until last index value cannot be incremeted
     while ( $st > -1 ){
         
-        if ( $x[$st] < $n - 1 ) {
+        if ( $x[$st] < $n ) {
             
             # Increment value at current index
             $x[$st] ++; 
